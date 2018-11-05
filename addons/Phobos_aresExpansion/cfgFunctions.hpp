@@ -3,7 +3,7 @@ class Phobos
 	class init
 	{
 		file = "\Phobos_aresExpansion\functions\init";
-		class initPhobos { preInit = 1; }; 
+		class initPhobos { preInit = 1; };
 	};
 	class events
 	{
@@ -27,22 +27,25 @@ class Phobos
 		class changeEngagementRules;
 		class changeSpeedMode;
 		class changeStance;
+		class chatEditor;
 		class cutsceneAddNew;
 		class cutsceneDelete;
+		class cutsceneExtract;
 		class cutsceneGetAll;
 		class cutscenePrepare;
-		class cutsceneExtract;
+		class directChat;
 		class getChangelog;
 		class getParentMod;
 		class initGlobalVariables;
 		class isVariableEligible;
 		class logMessage;
 		class monitorCuratorDisplay;
+		class remoteConversation;
 		class roundNumber;
 		class showChooseDialog;
-		class strToArray;
 		class strLen;
 		class strReplace;
+		class strToArray;
 	};
 
 	class ui
@@ -54,7 +57,7 @@ class Phobos
 		class welcomeScreen {};
 		class welcomeScreenFnc {};
 	};
-	
+
 	#include "cfgFunctionsAIBehaviour.hpp"
 	#include "cfgFunctionsAIEngagementRules.hpp"
 	#include "cfgFunctionsAIMisc.hpp"
